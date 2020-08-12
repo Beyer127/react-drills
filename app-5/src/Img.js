@@ -12,6 +12,7 @@ class Img extends Component{
         return(
             <div>
                 <img src={this.props.img1}/>
+                <img src={this.props.url}/>
             </div>
         )
     }
